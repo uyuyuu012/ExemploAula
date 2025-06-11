@@ -79,6 +79,7 @@
             TxtSenha.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             TxtSenha.Location = new Point(290, 217);
             TxtSenha.Name = "TxtSenha";
+            TxtSenha.PasswordChar = '*';
             TxtSenha.Size = new Size(138, 43);
             TxtSenha.TabIndex = 4;
             // 
@@ -91,6 +92,7 @@
             BtnLogin.TabIndex = 5;
             BtnLogin.Text = "Logar";
             BtnLogin.UseVisualStyleBackColor = true;
+            BtnLogin.Click += BtnLogin_Click;
             // 
             // Form1
             // 
