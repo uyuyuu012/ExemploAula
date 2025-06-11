@@ -14,6 +14,9 @@ namespace ExemploAula
                 MessageBox.Show("Usuário logado com sucesso");
                 TxtUsuário.Clear();
                 TxtSenha.Clear();
+                Hide();
+                Form2 form2 = new Form2();
+                form2.Show();
 
             }
             else
@@ -23,9 +26,7 @@ namespace ExemploAula
                 TxtSenha.Clear(); 
             }
 
-            Hide();
-            Form2 form2 = new Form2();
-            form2.Show();
+           
         }
     }
 }
